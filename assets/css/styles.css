@@ -273,3 +273,43 @@ a {
     cursor: pointer;
     scale: 1.2;
 }
+
+/* Special */
+.special {
+    margin-top: 130px;
+}
+.special__title {
+    text-align: center;
+}
+.title__desc {
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    width: 60%;
+    margin: 20px auto 80px;
+}
+
+.special-list {
+    margin-top: 60px;
+}
+.special-item {
+    background: #fbfaff;
+    padding: 33px 43px;
+    transition: scale 0.5s;
+}
+.special-list__sub-title {
+    margin-top: 22px;
+    color: #080415;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+    letter-spacing: -1.28px;
+}
+
+.special-list__desc {
+    margin-top: 15px;
+}
+.special-item:hover {
+    scale: 1.1;
+}
