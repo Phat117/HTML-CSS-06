@@ -401,3 +401,69 @@ a {
 .project-btn:hover {
     opacity: 0.9;
 }
+
+/* Journey */
+.journey {
+    padding: 65px 0;
+    margin-top: 75px;
+}
+
+.journey-info__name {
+    text-align: center;
+    color: #5d3bee;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+    letter-spacing: -1.28px;
+}
+.journey-info__title {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.journey-info__desc {
+    margin: 15px auto 0;
+    width: 50%;
+    text-align: center;
+}
+
+.journey-list {
+    margin-top: 70px;
+    border-top: 1px solid #080415;
+    border-bottom: 1px solid #080415;
+}
+
+.journey-item {
+    margin-top: 20px;
+}
+
+.journey-item__title {
+    color: #080415;
+    font-size: 5.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135.714%;
+    letter-spacing: 1.68px;
+    text-decoration-line: underline;
+}
+
+.journey-item__desc {
+    margin-top: 9px;
+    margin-bottom: 20px;
+}
+
+.journey-bottom {
+    padding: 70px 0;
+}
+
+.journey-video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.journey-video__mp4 {
+    position: absolute;
+}
