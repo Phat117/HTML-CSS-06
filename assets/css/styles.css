@@ -228,7 +228,7 @@ a {
 .hero__background {
     position: absolute;
     bottom: -20%;
-    right: -40%;
+    right: -45%;
 }
 
 /* Cilent */
@@ -454,7 +454,7 @@ a {
 }
 
 .journey-bottom {
-    padding: 70px 0;
+    padding-top: 70px;
 }
 
 .journey-video {
@@ -462,8 +462,124 @@ a {
     display: flex;
     justify-content: center;
     position: relative;
+    padding-top: 56.25%;
 }
 
 .journey-video__mp4 {
+    display: inline-block;
     position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* FeedBack */
+.feedback {
+    padding-top: 75px;
+    background: #fbfaff;
+}
+.feedback-top__title {
+    text-align: center;
+}
+
+.feedback-top__desc {
+    margin-top: 20px;
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.feedback .middle {
+    margin-top: 60px;
+}
+.feedback-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback-middle__info {
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 166.667%;
+    width: 61%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.feedback-name {
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+.feedback-name__avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: orange;
+}
+.feedback-name__id {
+    color: #080415;
+    text-align: center;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 133.333%;
+}
+.feedback-middle__desc {
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 181.25%;
+}
+.feedback .bottom {
+    margin-top: 42px;
+}
+
+.feedback-bottom {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.feedback-dot {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    opacity: 0.2;
+    background: #080415;
+}
+
+.feedback-dot:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.feedback-dot--active {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #5d3bee;
+    opacity: 1;
+}
+.feedback-dot--active::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background-color: #5d3bee;
+}
+
+.feedback-item--2 {
+    position: relative;
+    left: 59%;
 }
