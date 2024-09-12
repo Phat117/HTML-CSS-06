@@ -10,6 +10,9 @@
 
 /* Tablet and Mobile */
 @media screen and (max-width: 991px) {
+    ::-webkit-scrollbar {
+        display: none;
+    }
     .mobile-header {
         display: block;
     }
@@ -73,7 +76,25 @@
     .menu-drawer .header__logo--right__img {
         transform: translateX(0);
     }
+    .feedback-item--2 {
+        display: none;
+    }
+    .contact {
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+    }
+    .contact-background__img--center {
+        display: none;
+    }
+    /* Journey */
+    .journey {
+        margin-top: 40px;
+    }
+}
 
+/* Tablet breakpoint */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
     /* Hero */
     .hero .hero-img {
         order: 2;
@@ -93,15 +114,104 @@
         margin-bottom: 90px;
     }
     .hero__image {
-        transform: translateX(14%);
+        transform: translateX(10%);
     }
     .hero__background {
         display: none;
     }
-}
 
-/* Tablet breakpoint */
-@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .hero__image__background {
+        width: 100%;
+        top: -13%;
+        left: -27%;
+    }
+
+    /* Cilent */
+    .cilent {
+        margin-top: 60px;
+    }
+    .cilent-title {
+        width: 93%;
+        text-align: center;
+    }
+    .cilent-list {
+        scale: 1.1;
+        margin-top: 25px;
+        transform: translateX(5%);
+    }
+
+    /* Special */
+    .special {
+        margin-top: 90px;
+    }
+
+    .special .title__desc {
+        margin-bottom: 25px;
+        transform: translateX(-8%);
+        font-size: 2.1rem;
+    }
+    .special-item {
+        margin-bottom: 20px;
+    }
+
+    .special__title {
+        width: 90%;
+    }
+    .special-list__sub-title {
+        font-size: 4rem;
+    }
+    .special-list__desc {
+        font-size: 2.3rem;
+    }
+    /* Project */
+    .project {
+        margin-top: 30px;
+    }
+    .project-title .title {
+        width: 100%;
+        text-align: center;
+    }
+    .project-desc .desc {
+        margin-top: 20px;
+    }
+    .project-item__image__img {
+        width: 100%;
+    }
+    .project-item__content__title {
+        font-size: 2.2rem;
+    }
+    .project.btn {
+        transform: translateX(-25%);
+    }
+
+    /* Jouney */
+    .journey-item__desc {
+        font-size: 2rem;
+    }
+
+    /* Atmosphere */
+    .atmosphere-image {
+        margin-bottom: 25px;
+    }
+    .atmosphere-image__img {
+        width: 100%;
+    }
+
+    /* Contact */
+    .contact__btn {
+        transform: translateX(-25%);
+    }
+
+    /* Footer */
+    .footer__logo--left__email {
+        display: none;
+    }
+    .footer__logo--right {
+        display: none;
+    }
+    .copyright__desc a {
+        width: 100%;
+    }
 }
 
 /* Mobile breakpoint */
